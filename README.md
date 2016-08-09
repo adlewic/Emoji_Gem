@@ -40,17 +40,17 @@ If you are using bootstrap  you also have to add the following in `application.c
  */
 ```
 
-`application.scss or sass`
+The last one `application.scss or sass`
 
 ```scss
 @import 'rails_emoji_picker'
 ```
 
+
 Finally you have to wrap your text input with css class `emoji-picker-container`
 
-And add data-attribte `data: { emojiable: true }` to your input/text_area.
+And add data-attribte `data: { emojiable: true }` to your input/text_area. Like this :
 
-Like this :
 ```erb
 <p class="emoji-picker-container">
   <%= f.text_field :title, class: 'form-control', data: { emojiable: true } %>
