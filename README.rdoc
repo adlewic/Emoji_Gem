@@ -1,7 +1,5 @@
 == Emoji Picker ✌🏻
 
+This gem allows you to integrate a small menu of emojis to add  to your articles / post  and every text field that you want. 
 
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
