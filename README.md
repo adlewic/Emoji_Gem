@@ -35,16 +35,19 @@ If you are using bootstrap  you also have to add the following in `application.c
 
 ```css
 /*
+ *= require_tree .
+ *= require rails_emoji_picker
  *= require bootstrap
  *= require_self
  */
 ```
 
-The last one `application.scss or sass`
+On `application.scss or sass`
 
 ```scss
 @import 'rails_emoji_picker'
 ```
+
 
 
 Finally you have to wrap your text input with css class `emoji-picker-container`
@@ -57,4 +60,4 @@ And add data-attribte `data: { emojiable: true }` to your input/text_area. Like 
 </p>
 ```
 
-
+## 😗 You are all set !!!👆🏼
