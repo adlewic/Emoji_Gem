@@ -14,7 +14,7 @@ Then run the command on your terminal :
 rails g rails_emoji_picker:install
 ```
 
-Go to your file `application.js` and add the following:
+On `application.js` add the following:
 
 ```js
 //= require jquery
@@ -22,14 +22,17 @@ Go to your file `application.js` and add the following:
 //= require_tree .
 ```
 
-Now go to your file `application.css` and add the following:
+Also on  `application.css` add the following:
+
 ```css
 /*
  *= require_tree .
  *= require rails_emoji_picker
  */
 ```
-If you are using bootstrap  you also have to add the following:
+
+If you are using bootstrap  you also have to add the following in `application.css`
+
 ```css
 /*
  *= require bootstrap
@@ -42,9 +45,12 @@ If you are using bootstrap  you also have to add the following:
 ```scss
 @import 'rails_emoji_picker'
 ```
-Next step, wrap your text input with css class `emoji-picker-container`
+
+Finally you have to wrap your text input with css class `emoji-picker-container`
 
 And add data-attribte `data: { emojiable: true }` to your input/text_area.
+
+Like this :
 ```erb
 <p class="emoji-picker-container">
   <%= f.text_field :title, class: 'form-control', data: { emojiable: true } %>
