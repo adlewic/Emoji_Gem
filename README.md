@@ -33,3 +33,18 @@ rails g rails_emoji_picker:install
 
 
 
+`application.scss or sass`
+
+```scss
+@import 'rails_emoji_picker'
+```
+Next step, wrap your text input with css class `emoji-picker-container`
+
+And add data-attribte `data: { emojiable: true }` to your input/text_area.
+```erb
+<p class="emoji-picker-container">
+  <%= f.text_field :title, class: 'form-control', data: { emojiable: true } %>
+</p>
+```
+
+
