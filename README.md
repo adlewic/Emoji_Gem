@@ -1,6 +1,6 @@
 ##Emoji Picker ✌🏻
 
-This gem allows you to integrate a small picker menu of emojis 😎 🙊 👏🏻 to add to your articles / post  and every text field that you want. 
+This gem allows you to integrate a small picker menu of emojis 😎 🙊 👏🏻 to add to your articles / post  and every text field that you want. 😁
 
 
 ##Intallation
@@ -14,8 +14,22 @@ Then run the command on your terminal :
 rails g rails_emoji_picker:install
 ```
 
+`application.js`
+```js
+//= require jquery
+//= require rails_emoji_picker
+//= require_tree .
+```
 
 
+```css
+/*
+ *= require_tree .
+ *= require rails_emoji_picker
+ *= require bootstrap
+ *= require_self
+ */
+```
 
 
 
