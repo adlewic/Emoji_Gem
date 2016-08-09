@@ -60,4 +60,4 @@ And add data-attribte `data: { emojiable: true }` to your input/text_area. Like 
 </p>
 ```
 
-## 😗 You are all set !!!👆🏼
+## 💁🏼 You are all set !!👊🏼
