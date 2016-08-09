@@ -14,7 +14,8 @@ Then run the command on your terminal :
 rails g rails_emoji_picker:install
 ```
 
-`application.js`
+Go to your file `application.js` and add the following
+
 ```js
 //= require jquery
 //= require rails_emoji_picker
